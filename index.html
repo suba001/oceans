@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>menubar</title>
+    <style>
+        ul{
+list-style-type: none;
+overflow: hidden;
+        }
+        #b{
+            background-color:darkslateblue;
+            float: left;
+            padding:3px 70px;
+            height: 30px;
+            color: yellow;
+         
+        }
+        #b:hover{
+            background-color: whitesmoke;
+        }
+        
+        #one{
+            width:200px;
+            height:50px;
+            border:2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top:40px;
+            background-color: lightcyan;
+            color: darkblue;
+            float: left;
+            margin-right: 20px;
+            }
+        #two{
+            width:200px;
+            height:50px;
+            border:2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top:40px;
+            background-color: lightcyan;
+            color: darkblue;
+            float: left;
+            margin-right: 20px;
+        }
+        #three{
+            width:200px;
+            height:50px;
+            border:2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top:40px;
+            background-color: lightcyan;
+            color: darkblue;
+            float: left;
+            margin-right: 20px;
+
+        }
+        #four{
+            width:200px;
+            height:50px;
+            border:2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top:40px;
+            background-color:lightcyan;
+            color: darkblue;
+            float: left;
+        }
+        #t{
+            background-color:lavender;
+            clear: both;
+            height: 300px;
+            margin-top: 50px;
+            color: darkslategray;
+        }
+        #t1{
+float: left;
+margin-left: 70px;
+margin-right: 70px;
+        }
+        #t2{
+float: left;
+margin-right: 70px;
+        }
+        #t3{
+float: left;
+margin-right: 70px;
+        }
+        #t4{
+float: left;
+margin-right: 70px;
+        }
+     /*  #a{
+width: 200px;
+height:500px;
+border:2px solid black;
+float: left;
+margin-right: 20px;
+border-radius: 5px;
+margin-top:15%;
+       }
+       #b{
+width: 200px;
+height:500px;
+border:2px solid black;
+float:left;
+margin-right: 20px;
+margin-top:15%;
+margin-left:0px
+       }
+       #c{
+width: 200px;
+height:500px;
+border:2px solid black;
+float:left;
+margin-right: 20px;
+margin-top:15%;
+       }
+       #d{
+width: 150px;
+height:500px;
+border:2px solid black;
+float:left;
+margin-top:15%;
+       }*/
+       
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">OCEAN 
+        EDGE</h1>
+        <h3 style="border:2px solid black;width: 100px;font-size: medium;background-color: darkgoldenrod;color: darkred;margin-left: 80%;">LOGIN/SIGN UP</h3>
+    <ul>
+        <li id="b">Home</li>
+        <li id="b">About us</li>
+        <li id="b">Solutions</li>
+        <li id="b">Apps</li>
+        <li id="b">Careers</li>
+        <li id="b">Contact us</li>
+    </ul>
+    <img src="/ocean.jpg" width="800px" height="500px">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADVCAMAAABjeOxDAAAAkFBMVEX////6+vr39/fm5ubw8PDX19fFxcWzs7OHh4ebm5txcXFhYWF2dnYfHx9ISEg6OjrNzc0AAAAtLS2np6cyMjK5ublUVFQkHiCQkJBbW1tSUlLy8vJ7e3tDQ0MkJCRCQkKWlpYTCg2Li4uCgoLg4OALCwtqamqrq6vT09MUFBS/v78aGho2NjYqKCkbExY7Njcnr/WuAAAGZUlEQVR4nO3diZaaSBSAYZBNtgLZwiY4gIC2zLz/202B3TPdLklnrJq653D/k5hW08QvFwo5nUWSMAzDMOxRsugXgD1J3hSqqryn/n5FsRFN+GaKcWi2TZqmh4/SuaZptu1c+ascxynbNg3HRQx5l+6arTF2Stdp4zj6NH3p/F787YwhtUxFNOdnbcJGV7Q4dewsS/KbkoR+W77/sszuy9QcQmcQLXpeVw6d33rH3Zfcyq2+0+nLZx2jpEyHbVuIRj1Js2ItDU4nO/Q/LUva6c2dmz0TLZhz7zuGn5YoxQ+Tk5u0ZmopII9bpY99+7Qrbw409fgFO1OjqLrH7oyb7WnWLnDSba/ItP9N8b02lqGTUzRKN5NQ7rFBNLnuj5vusJJ0nqq+LW1V3kDTHg5+4tb362dRvb3dTTZ4gPXvt9kFgVX26abYwOJqlm9Vgfrgme3uHkv34xvrn3/da2SpcyPHSnT6PgOUthyG6vhgOHT/zv5dYo/HE42O+mbF3u087f4zKS8+5pbdd50CR0tH0Pu56zx5utPe65aWD7TP0XubJ2uuXfU9GbROVTdAsPSINc3JffKG56UXqdHRJpY/dvOe/MqG2LXpYzoCLifEJOjt3NBnLZAdWbFj7y3msunhZNt709A1BcpotdIMdiqXyXan3CZlGPt0kYIxWr3ZThGfTRfR3ib9YaCjVWGsyOeDNWWctp17GbGbebT0qOX0a/xWhmlXFqdtZ5csz1pAR+2MfXaWfTU7yvKcXu6dRyD78cAVa5PcSeHsx7yxxGlMMOvxEHLGWlvT8IEctPyxDZwVijM2r+fJrgUbJKvBZiTIr1gQ13mIZRQ8rJkhlkUrw9prwq5qsogVF2IZNWMjez3YPbEAYcMDX2wOC5twPc9eIO3GfLHAFiiKffo1vFebd2NQ2AGxbAKIff6l6FeDhh1tcz1Yh6xosiViGYVYgXHHTsl6sPUe0IUAdyykqx7uWEjXsxRLEMsixAqs3KccsQEwLEEsmxArMMSyamXYxEOsoDifZxErrM5eEVYaGsQyCbEiWxU2RCybECsyxDIKsSJDLKMQKzLEMgqxIgu3iGUSYkWGWEbZE2LFhbsxoxArMsQyCh62Ifz+qgs4bFm/8Tv15BdQ2EMfccNm7iVYD/YtmtaDdT1Ykw3bNa3GXE89OWKFNazpTQViGQUOy3U1Bnfxjlg2rQu7qmMWsQJDLKMQKzLEMgqxIkMsoxArsrBELJMQKzLEMgqxIkMsoxArMsQyyg4yxAoLsYyasZD+pS/Esmp12FUds4gVVegglkmIFRlXbIRYcSGWUYgV2aqwA2LZhFiRhRZimYRYkQ2IZRNiRbYqLC5QjAKHXdVkw54n1kassFaFHdaExckyCrEiQyyjECuyVa3GoY1YJiFWZFyxlx4Wdsj2PCcL6r+dkgyu2B7Wn3CLE+7YMIaC1XOu2CixmjD2gWA1QqqM07Zzr48yJ6XYTikgYFVCph+SxOOVqBWxF+x57NRCBoCVejIddfabpTbjlCUXuzwMOhCsLIUkcnsOk5WlvOrrum+vizEELN3ZvP204zBaOlhiX5J+C+eQpaUkqiKF8UZlSQmCfl/bTjrQQ1aBMVg62j2Z3HzDeKtF7SaZl8x78fXEAwMrxXU9nXKV6TaVuqrpe0W6PBlQlqclWWprb3IjffmYzYuKA5da64y+ozj71ApmsLK8oQfXVO0yn82+LOvZbtpns/V9dQIzWPriNkpfk2iqjl5r6P5r6UPpHd2AJB61tmYM6oBdJqt2jrevg6lyT8drf/y8409yq2ifkwux5+sdaoWzD89RrKKFxCO1FwUfTUvBp97v3jweRdfb6P02utSEUj061nS5AoBlvWL92PEiz/Pquf2j6s8tj5BH7elvGaWW2wOcq51PyZtC6UY9Drd9QqfreReat3T5ad599Z7kVNo2h9A4X985AcPKhap0PtWah6Zp29KhWf8pxynLdtsczJmqAbQuo1Xn2Z6NIQxN80BLb2qa5vahR9HPNM1wMM76TFWhvCP+0lWrjb5+PsdxbLxQfKZQf7xSIVrns0+hqgr1ato4vnSeHUdN6zploYK0SvNsN8Xi/Wh+wcrnu1/v33R9+uOnqGpRzEcrUOs8XOql4G+kqovmwRPL7WYJrlRasO99vFj548cvj98/9O/H/9wCHioGrL8B99hDtxOK16EAAAAASUVORK5CYII=" width="350px" height="350px">
+<br>
+<br>
+    <div id="one">
+More info
+iSecure mail
+</div>
+<div id="two">
+    More info 
+    iReadSMIME
+</div>
+<div id="three">
+    More info
+    Device Wipe
+</div>
+<div id="four">
+   view the 
+      latest apps
+</div>
+<br>
+<br>
+
+<br><div id="t">
+    <div id="t1">
+<h1 style="color: dodgerblue;">Why ocean's edge?</h1>
+<ul>
+    <li>Tele comunicaions</li>
+    <li>Infrastructure</li>
+    <li>Security</li>
+    <li>Quality</li>
+    <li>Service and servers</li>
+</ul>
+<h3 style="border: 2px solid black;background-color:darkblue;color: white;border-radius: 5px;margin-top: 125px;">READ MORE</h3>
+    </div>
+    <div id="t2">
+        <h1 style="color: dodgerblue;">Who we are?</h1>
+        <pre>Pellentesque habitant morbi
+tristique senectus et netus 
+et malesuada fames ac turpis
+egestas. Vestibulum tortor quam,
+feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu
+ libero sit amet quam egestas semper.
+Aenean ultricies mi vitae est.
+ Mauris placerat eleifend leo.</pre>
+ <h3 style="border: 2px solid black;background-color:darkblue;color: white;border-radius: 5px;margin-top: 80px;">READ MORE ABOUT US</h3>
+    </div>
+    <div id="t3">
+        <h1 style="color: dodgerblue;">1Quick contact</h1>
+        <pre>Pellentesque habitant
+morbi tristique senectus 
+et netus et malesuada fames 
+ac turpis egestas.</pre>
+ <h3>paragraph tag:</h3>
+ <pre>Pellentesque habitan
+morbi tristique 
+senectus et netus
+et malesuada fames ac turpis 
+egestas.</pre>
+<h3 style="border: 2px solid black;background-color:darkblue;color: white;border-radius: 5px;">CONTAC US NOW</h3>
+    </div>
+    <div id="t4">
+        <h1 style="color: dodgerblue;">In the news</h1>
+        <h5>heading 5 tag:</h5>
+        <pre>Lorem ipsum dolor 
+sit amet, consectetuer
+adipiscing elit</pre>
+<h3 style="border: 2px solid black;background-color:darkblue;color: white;border-radius: 5px;margin-top: 130px;">READ MORE NEWS</h3>
+    </div>
+</div>
+<h1 style="text-align: center;color:blueviolet;float: left;"><pre>THANK YOU! VISIT AGAIN!!!</pre>
+</h1>
+</body>
+</html>
